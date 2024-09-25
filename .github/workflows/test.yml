@@ -1,7 +1,8 @@
 name: Run Test
 on:
-  - push
-  - pull_request
+  push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   run-unit-tests:
