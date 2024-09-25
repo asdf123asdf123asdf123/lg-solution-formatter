@@ -264,6 +264,11 @@ const mathTestCases = [
     source: R`$\sqrt[x]{n}$`,
     target: R`$\sqrt[x]{n}$`,
   },
+  {
+    name: "句末句号",
+    source: R`一道水题`,
+    target: R`一道水题。`,
+  },
 ];
 
 test("Markdown 杂项", markdownTestCases)
